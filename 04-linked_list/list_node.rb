@@ -1,12 +1,23 @@
 # frozen_string_literal: true
 
-# Definition for singly-linked list.
+require 'pry'
+
+# Definition for linked-list node.
 class ListNode
   attr_accessor :val, :next
 
   def initialize(val = 0, _next = nil) # rubocop:disable Lint/UnderscorePrefixedVariableName
     @val = val
     @next = _next
+  end
+end
+
+# Definition for single-linked list.
+class LinkedList
+  attr_accessor :head
+
+  def initialize
+    @head = nil
   end
 end
 
