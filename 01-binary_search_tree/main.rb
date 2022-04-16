@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
-require_relative './binary_tree'
+require_relative './tree_node'
 require 'pry'
-
-tree_node = TreeNode.new
 
 def insert(root, val)
   return TreeNode.new(val) if root.nil?
@@ -55,8 +53,9 @@ end
 
 # puts "[#{node_result.val}, #{node_result.left.val}, #{node_result.right.val}]"
 
-array2 = [3, 0, 4, 2, 1]
-array2.each { |el| tree_node = insert(tree_node, el) }
+# tree_node = TreeNode.new
+# array2 = [3, 0, 4, 2, 1]
+# array2.each { |el| tree_node = insert(tree_node, el) }
 
-root = trim_bst(tree_node, 1, 3)
-puts root.val
+# root = trim_bst(tree_node, 1, 3)
+# puts root.val
