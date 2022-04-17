@@ -9,7 +9,7 @@ def increasing_bst(root)
   result_increasing_bst(root, nil)
 end
 
-def result_increasing_bst(curr, _next)
+def result_increasing_bst(curr, _next) # rubocop:disable Lint/UnderscorePrefixedVariableName
   return _next unless curr
 
   res = result_increasing_bst(curr.left, curr)
