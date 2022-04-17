@@ -4,10 +4,10 @@ require 'pry'
 
 # @param {String} s
 # @return {Integer}
-def roman_to_int(s) # rubocop:disable Metrics/AbcSize
+def roman_to_int(roman_str) # rubocop:disable Metrics/AbcSize
   roman = { 'I' => 1, 'V' => 5, 'X' => 10, 'L' => 50, 'C' => 100, 'D' => 500, 'M' => 1000 }
 
-  array = s.split('')
+  array = roman_str.split('')
   sum = 0
   len = array.length
 
