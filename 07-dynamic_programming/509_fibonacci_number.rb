@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# Fibonacci number solution using Dynamic Programming
+
 # @param {Integer} n
 # @return {Integer}
 def fib(num)
