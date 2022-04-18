@@ -10,7 +10,7 @@ def find_kth_largest(nums, key)
   len = nums.length
   return nums[0] if len == 1
 
-  nums = nums.shuffle
+  nums = nums.shuffle # to avoid worst case
   quicksort(nums, 0, len - 1)[len - key]
 end
 
