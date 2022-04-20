@@ -23,7 +23,7 @@ def sorted_array_bst_helper(nums, low, high)
   curr
 end
 
-array = [-10, -3, 0, 5, 9]
+# array = [-10, -3, 0, 5, 9]
 
-root = sorted_array_to_bst(array)
-print_preorder_dfs(root)
+# root = sorted_array_to_bst(array)
+# print_preorder_dfs(root)
