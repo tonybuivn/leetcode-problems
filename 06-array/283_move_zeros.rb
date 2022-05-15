@@ -5,14 +5,13 @@ require 'pry'
 # @param {Integer[]} nums
 # @return {Void} Do not return anything, modify nums in-place instead.
 def move_zeroes(nums)
-  i = 0
   tail = -1
-  while i < nums.length
-    if nums[i] != 0
+
+  nums.each_with_index do |num, index|
+    if num != 0
       tail += 1
-      nums[i], nums[tail] = nums[tail], nums[i] if i != tail
+      nums[index], nums[tail] = nums[tail], nums[index] if index != tail
     end
-    i += 1
   end
 end
 
