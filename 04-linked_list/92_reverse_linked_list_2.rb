@@ -16,7 +16,6 @@ def reverse_between(head, left, right)
     next_node = head.next
     head.next = new_sub_head
     new_sub_head = head
-    binding.pry
 
     # increment
     head = next_node
