@@ -2,6 +2,10 @@
 
 # @param {Integer} n
 # @return {Boolean}
+# Floyd Cycle detection algorithm
+# Time complexity : 0(n)
+# Space complexity : 0()
+# TODO: another solution on leetcode
 def is_happy(n)
   slow = n
   fast = n
