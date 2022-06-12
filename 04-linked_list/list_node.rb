@@ -29,6 +29,22 @@ def insert_to_list(list_node, val)
   list_node.next
 end
 
+def create_list_from_array(arr)
+  head = nil
+  curr = nil
+  arr.each do |el|
+    node = ListNode.new(el)
+    if head.nil?
+      head = node
+      curr = head
+    else
+      curr.next = node
+      curr = node
+    end
+  end
+  head
+end
+
 def print_list_node(list_node)
   return unless list_node
 
