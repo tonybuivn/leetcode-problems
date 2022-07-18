@@ -43,5 +43,5 @@ end
 str = 'abcacbd'
 puts longest_palindrome(str)
 
-# TODO: tomorrow
+# TODO
 # https://leetcode.com/problems/longest-palindromic-substring/discuss/2925/Python-O(n2)-method-with-some-optimization-88ms.
