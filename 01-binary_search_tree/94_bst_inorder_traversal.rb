@@ -25,8 +25,8 @@ end
 
 # TODO : Implement inorder traverse using stack and iterative method
 
-array = [5, 3, 6, 2, 4, 8, 1, 7, 9]
-tree_node = TreeNode.new(array[0])
-array.each { |el| tree_node = insert(tree_node, el) }
+# array = [5, 3, 6, 2, 4, 8, 1, 7, 9]
+# tree_node = TreeNode.new(array[0])
+# array.each { |el| tree_node = insert(tree_node, el) }
 
-inorder_traversal(tree_node).each { |el| puts el }
+# inorder_traversal(tree_node).each { |el| puts el }
