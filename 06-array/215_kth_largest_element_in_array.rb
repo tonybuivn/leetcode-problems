@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'pry'
-require_relative './quicksort'
+require_relative '../09-sort_algorithms/quicksort'
 
 # @param {Integer[]} nums
 # @param {Integer} key
@@ -19,8 +19,8 @@ def find_kth_largest_v2(nums, key)
 end
 
 # array = [10, 80, 30, 90, 40, 50, 70]
-# array = [3, 2, 3, 1, 2, 4, 5, 5, 6]
-array = [1]
+array = [3, 2, 3, 1, 2, 4, 5, 5, 6]
+# array = [1]
 puts 'Array'
 puts array
 puts 'Kth largest element in array'
