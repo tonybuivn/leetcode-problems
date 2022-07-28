@@ -37,3 +37,5 @@ end
 # nums = [1, 1, 1, 2, 2, 3, 3, 3, 3]
 nums = [1, 2]
 puts top_k_frequent(nums, 2)
+
+# TODO : https://leetcode.com/problems/top-k-frequent-elements/discuss/81635/3-Java-Solution-using-Array-MaxHeap-TreeMap
